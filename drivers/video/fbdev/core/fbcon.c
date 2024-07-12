@@ -483,7 +483,7 @@ static int __init fb_console_setup(char *this_opt)
 			options += 11;
 			if (*options)
 				/*fb_logo_count = simple_strtol(options, &options, 0);*/
-				fb_logo_count = 1
+				fb_logo_count = 1;
 			continue;
 		}
 #endif
